@@ -33,7 +33,7 @@ const app = express()
 const allowedOrigins = [
     "http://localhost:5173",
     "https://ai-job-preparation-frontend.vercel.app" // ← add your actual frontend URL
-]
+]          
 
 app.use(express.json())
 app.use(cookieParser())
